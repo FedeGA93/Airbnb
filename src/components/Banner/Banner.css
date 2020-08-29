@@ -1,0 +1,44 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url(https://cdn-3.expansion.mx/dims4/default/b294a3b/2147483647/strip/true/crop/3200x2133+0+0/resize/1800x1200!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F93%2F4f%2F4debb3454df5a70a402e0b5f098d%2Fpjm020719q202-luxe-wanakanz-livingroom-0264-lighton-r1.jpg)
+    center center;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 2vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
