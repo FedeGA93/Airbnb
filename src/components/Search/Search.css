@@ -1,8 +1,9 @@
 .search {
   position: absolute;
   top: 35px;
-  left: 25%;
+  left: 35vw;
   width: 100vw;
+  z-index: 1;
 }
 
 .search > h2 {
